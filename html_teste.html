@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Nunito:wght@300;400&family=Roboto+Mono:wght@300;400&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header></header>
+
+
+    <form action="">
+        <fieldset>
+            <legend>Dados Gerais</legend>
+            <label for="nome" >Nome: </label>
+            <input type="text" minlength="3" id="nome">
+
+            <label for="nascimento">Data de Nascimento: </label>
+            <input type="date" id="nascimento">
+            
+            <label for="cpf">CPF:</label>
+            <input type="cpf" minlength="11" maxlength="11" id="cpf">
+        </fieldset>
+        <fieldset>
+            <legend>Endereço:</legend>
+            <label for="tipo_endereco">Tipo: </label>
+            <select name="tipo_endereco" id="tipo_endereco">
+                <option value="">Selecione</option>
+                <option value="">Rua</option>
+                <option value="">Estrada</option>
+                <option value="">Rodovia</option>
+                <option value="">Outros</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <button type="submit">Enviar sua Mensagem</button>
+            <button type="reset">Limpar Formulário</button>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+    <br><hr><br>
+    <ol>
+        <li>Capitulo I
+            <ol>
+                <li>Primeira Seção</li>
+                <li>Segunda Seção</li>
+                <li>Terceira Seção</li>
+            </ol>
+        </li>
+        <li>Capitulo II</li>
+        <li>Capitulo III</li>
+    </ol>
+    <br><hr><br>
+
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lL7EL6zRfdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe src="https://open.spotify.com/embed/episode/5uc0LMJRpAQsljRrkP6Q9F?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" ></iframe>
+
+    <form >
+        <fieldset>
+            <label for="phone" >Digite seu número: </label>
+            <input type="tel" required pattern="([0-9]{2}) [9] {1} [0-9] {4} - [0-9]{4}" placeholder="(00) 0 0000 - 0000" maxlength="{11}">
+            <button type="submit">Enviar</button>
+        </fieldset>
+        
+        <table>
+            <thead>Exemplo</thead>
+            <tr>
+                <th>th</th>
+                <th>th</th>
+                <th>th</th>
+            </tr>
+            <tr rowspan="2">
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            <tr >
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            
+        </table>
+       <br><hr><br>
+        <table>
+            <thead>Exemplo 2</thead>
+            <tr>
+                <th>th</th>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            <tr>
+                <th>th</th>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            <tr>
+                <th>th</th>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+        </table>
+        <br><hr><br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th colspan="2">Horas</th>
+                </tr>
+            </thead>
+            <tr>
+                <th>th</th>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            <tr>
+                <th>th</th>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            <tr>
+                <th>th</th>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            <tfoot>
+                <td colspan="3">finalizando tabela</td>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
